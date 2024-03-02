@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8349303107335262725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8349303107335262722}
+  - component: {fileID: 8349303107335262723}
+  - component: {fileID: 8349303107335262720}
+  - component: {fileID: 8349303107335262721}
+  - component: {fileID: 8349303107335262734}
+  m_Layer: 0
+  m_Name: GameMannager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8349303107335262722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349303107335262725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8349303107335262723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349303107335262725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea14a0d4bd22d1341890f16608ab5c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectContainerPlant: {fileID: 0}
+  interactableMap: {fileID: 0}
+  interactedMap: {fileID: 0}
+  hiddenInteractableTile: {fileID: 0}
+  interactedTile_Hoe: {fileID: 11400000, guid: 34e873ca2b13ea04fb982e9f76bd9b55, type: 2}
+  interactedTile_Water: {fileID: 11400000, guid: 8167e7218473dec49b7750dc5a4844b7, type: 2}
+  interactedTile_Plant: {fileID: 11400000, guid: 9290d6480b95cc643baa00477f28a895, type: 2}
+  interactedTile_Default: {fileID: 11400000, guid: 53471d551d13fcb449b5a5691ab7ec93, type: 2}
+  plant: {fileID: 8368176913354573807, guid: 26f725c18d54ff343b62173bdca657d7, type: 3}
+  plant_corn: {fileID: 8368176913354573807, guid: 74f27d76f8f5fd24697b00e2e1de0544, type: 3}
+  plant_carrot: {fileID: 8368176913354573807, guid: e3a2c1d4dda4f6f48b1c75d287883a6d, type: 3}
+  plant_pumpkin: {fileID: 8368176913354573807, guid: 028df6a32e8a432438e932e9dce896e4, type: 3}
+  plant_blueStarFruit: {fileID: 8368176913354573807, guid: 2050711ced591934e9ab40d6c39b733b, type: 3}
+  contain_Plant: {fileID: 0}
+--- !u!114 &8349303107335262720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349303107335262725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e1bcf5b3d42e74c96ceff3090ca9ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileMannager: {fileID: 0}
+  environment_Mannagement: {fileID: 0}
+  prefabContainer: {fileID: 0}
+--- !u!114 &8349303107335262721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349303107335262725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc276aa13fe6b348aa8f7c60a136750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8349303107335262734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349303107335262725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d32c5635ec2dd4bb430a1a4655721e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabWaterContainer: {fileID: 6433349420085815801, guid: 91355e22ae1f279489aaf55b6da68f24, type: 3}
